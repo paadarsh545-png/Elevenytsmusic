@@ -1,17 +1,3 @@
-# ==============================================================================
-# restart.py - Bot Restart & Logging Commands (Sudo Only)
-# ==============================================================================
-# This plugin provides administrative commands for bot maintenance.
-#
-# Commands:
-# - /logs - Get log file
-# - /logger on/off - Enable/disable database logging
-# - /restart - Restart the bot
-# - /update - Update bot from git and restart
-#
-# All commands require sudo user permissions.
-# ==============================================================================
-
 import os
 import sys
 import shutil
@@ -19,7 +5,7 @@ import asyncio
 
 from pyrogram import filters, types
 
-from HasiiMusic import app, db, lang, stop
+from Elevenyts import app, db, lang, stop
 
 
 @app.on_message(filters.command(["logs"]) & app.sudo_filter)
@@ -117,7 +103,7 @@ async def _restart(_, m: types.Message):
     asyncio.create_task(stop())
     await asyncio.sleep(2)
 
-    os.execl(sys.executable, sys.executable, "-m", "HasiiMusic")
+    os.execl(sys.executable, sys.executable, "-m", "Elevenyts")
 
 
 @app.on_message(filters.command(["update"]) & app.sudo_filter)
