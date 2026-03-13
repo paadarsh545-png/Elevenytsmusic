@@ -1,19 +1,6 @@
-# ==============================================================================
-# maintenance.py - Maintenance Mode (Sudo Only)
-# ==============================================================================
-# This plugin allows bot owner/sudo users to enable maintenance mode.
-# When enabled, only sudo users can use the bot - regular users are blocked.
-#
-# Commands:
-# - /maintenance [enable|disable] - Toggle maintenance mode
-# - /maintenance - Check current status
-#
-# Only sudo users can manage maintenance mode.
-# ==============================================================================
-
 from pyrogram import filters, types
 
-from HasiiMusic import app, db, lang
+from Elevenyts import app, db, lang
 
 
 @app.on_message(filters.command(["maintenance"]) & app.sudo_filter)
