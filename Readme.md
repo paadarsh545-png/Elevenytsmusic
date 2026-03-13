@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://files.catbox.moe/r83igx.jpg" alt="˹ꜱʀɪ ᴍᴜꜱɪᴄ˼" width="400"/>
+  <img src="https://files.catbox.moe/r83igx.jpg" alt="˹ᴇʟᴇᴠᴇɴʏᴛꜱ ᴍᴜꜱɪᴄ˼" width="400"/>
   
-  # 🎵 ˹ꜱʀɪ ᴍᴜꜱɪᴄ˼
+  # 🎵 ˹ᴇʟᴇᴠᴇɴʏᴛꜱ ᴍᴜꜱɪᴄ˼
   
   <p><b>A Powerful Telegram Music Player Bot</b></p>
   
@@ -167,6 +167,6 @@ Special thanks to [AnonymousX1025](https://github.com/AnonymousX1025) for the or
   
   ### Made with ❤️ by Artist 
   
-  **© 2025 ˹ꜱʀɪ ᴍᴜꜱɪᴄ˼. All rights reserved.**
+  **© 2025 ˹ᴇʟᴇᴠᴇɴʏᴛꜱ ᴍᴜꜱɪᴄ˼. All rights reserved.**
   
 </div>
