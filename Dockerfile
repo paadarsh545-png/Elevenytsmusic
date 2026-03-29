@@ -1,8 +1,8 @@
 FROM python:3.12-slim
 
-# Install dependencies (ffmpeg + curl)
+# Install dependencies (ffmpeg + curl + unzip)
 RUN apt-get update && \
-    apt-get install -y ffmpeg curl && \
+    apt-get install -y ffmpeg curl unzip && \
     rm -rf /var/lib/apt/lists/*
 
 # App setup
