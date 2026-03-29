@@ -1,16 +1,17 @@
 FROM python:3.12-slim
 
-# Install FFmpeg + ffprobe
+# Install dependencies (ffmpeg + curl)
 RUN apt-get update && \
-    apt-get install -y ffmpeg && \
+    apt-get install -y ffmpeg curl && \
     rm -rf /var/lib/apt/lists/*
 
-# Your app setup
+# App setup
 WORKDIR /app
 COPY . .
+
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Deno install (repo needs Deno too)
+# Install Deno
 RUN curl -fsSL https://deno.land/install.sh | sh
 ENV PATH="/root/.deno/bin:${PATH}"
 
