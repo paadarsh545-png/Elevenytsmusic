@@ -57,8 +57,8 @@ class Config:
 
         # ============ SUPPORT LINKS ============
         self.SUPPORT_CHANNEL: str = getenv(
-            "SUPPORT_CHANNEL", "https://t.me/elevenyts")
-        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/elevenytsmusic")
+            "SUPPORT_CHANNEL", "https://t.me/ananyaaaa09")
+        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/ananyaaaa09")
 
         # ============ EXCLUDED CHATS ============
         # Parse comma-separated chat IDs that assistants should never leave
@@ -80,14 +80,14 @@ class Config:
         # URLs for various bot images
         self.DEFAULT_THUMB: str = getenv(
             "DEFAULT_THUMB",
-            "https://files.catbox.moe/43u332.jpg"  # Default thumbnail
+            "https://ik.imagekit.io/vhaqi8hts/img_1776418677_Xx4FrkaF4.jpg?tr=w-1536,h-2731,c-maintain_ratio,fo-auto,q-95"  # Default thumbnail
         )
         self.PING_IMG: str = getenv(
-            "PING_IMG", "https://files.catbox.moe/43u332.jpg")    # Ping command image
+            "PING_IMG", "https://ik.imagekit.io/vhaqi8hts/img_1776414399_TCwxJ4Dzt.jpg?tr=w-1536,h-2731,c-maintain_ratio,fo-auto,q-95")    # Ping command image
         self.START_IMG: str = getenv(
-            "START_IMG", "https://files.catbox.moe/43u332.jpg")  # Start command image
+            "START_IMG", "https://ik.imagekit.io/vhaqi8hts/img_1776414399_TCwxJ4Dzt.jpg?tr=w-1536,h-2731,c-maintain_ratio,fo-auto,q-95")  # Start command image
         self.RADIO_IMG: str = getenv(
-            "RADIO_IMG", "https://files.catbox.moe/43u332.jpg")    # Radio command image
+            "RADIO_IMG", "https://ik.imagekit.io/vhaqi8hts/img_1776414407_gbt3iM25e.jpg?tr=w-1536,h-2731,c-maintain_ratio,fo-auto,q-95")    # Radio command image
 
         # ============ MODERATION ============
         # List of usernames to exclude from admin mentions
